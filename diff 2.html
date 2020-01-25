@@ -1,0 +1,1532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta id="bb-bootstrap" data-current-user="{&quot;displayName&quot;: &quot;Ambjoern Skoeld\ud83d\udee1&quot;, &quot;uuid&quot;: &quot;{2caa4c38-2859-48ec-8fb1-1f724f918d66}&quot;, &quot;hasPremium&quot;: false, &quot;avatarUrl&quot;: &quot;https://secure.gravatar.com/avatar/993bc96b47c84a95eeda19b63169a17f?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAS-1.png&quot;, &quot;isTeam&quot;: false, &quot;isSshEnabled&quot;: false, &quot;mention_id&quot;: &quot;5bd0a5744b76d050e296ec7a&quot;, &quot;isKbdShortcutsEnabled&quot;: true, &quot;avatarUrl2x&quot;: &quot;https://secure.gravatar.com/avatar/993bc96b47c84a95eeda19b63169a17f?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAS-1.png&amp;s=64&quot;, &quot;nickname&quot;: &quot;Ambjorn Skold&quot;, &quot;id&quot;: 13023181, &quot;isAuthenticated&quot;: true}"
+data-atlassian-id="5bd0a5744b76d050e296ec7a" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script nonce="AKta4UDeTI2oAbCz">
+
+if (window.performance) {
+
+  
+  window.performance.okayToSendMetrics = !document.hidden && 'onvisibilitychange' in document;
+
+  if (window.performance.okayToSendMetrics) {
+
+    
+    window.addEventListener('visibilitychange', function () {
+      if (document.hidden) {
+        window.performance.okayToSendMetrics = false;
+      }
+    });
+  }
+}
+</script>
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta charset="utf-8">
+  <title>
+  firewiccagroup / .git-2-mirror 
+  / Pull request #1: Master git 2 mirror 
+ &mdash; Bitbucket
+</title>
+  <script nonce="AKta4UDeTI2oAbCz" type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VwMGVVZSGwIIUFBQDwU=",licenseKey:"a2cef8c3d3",applicationID:"1841284"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{s.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(24),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,s){try{l?l-=1:o(s||new UncaughtException(t,e,n),!0)}catch(f){try{i("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t,e){var n=e?null:c.now();i("err",[t,n])}var i=t("handle"),a=t(25),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,p="nr@seenError",l=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(13),t(12),"addEventListener"in window&&t(6),c.xhrWrappable&&t(14),d=!0)}s.on("fn-start",function(t,e,n){d&&(l+=1)}),s.on("fn-err",function(t,e,n){d&&!n[p]&&(f(n,p,function(){return!0}),this.thrown=!0,o(n))}),s.on("fn-end",function(){d&&!this.thrown&&l>0&&(l-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(){L++,C=g.hash,this[u]=y.now()}function o(){L--,g.hash!==C&&i(0,!0);var t=y.now();this[h]=~~this[h]+t-this[u],this[d]=t}function i(t,e){E.emit("newURL",[""+g,e])}function a(t,e){t.on(e,function(){this[e]=y.now()})}var s="-start",c="-end",f="-body",u="fn"+s,d="fn"+c,p="cb"+s,l="cb"+c,h="jsTime",m="fetch",v="addEventListener",w=window,g=w.location,y=t("loader");if(w[v]&&y.xhrWrappable){var x=t(10),b=t(11),E=t(8),O=t(6),R=t(13),P=t(7),N=t(14),T=t(9),M=t("ee"),S=M.get("tracer");t(16),y.features.spa=!0;var C,L=0;M.on(u,r),M.on(p,r),M.on(d,o),M.on(l,o),M.buffer([u,d,"xhr-done","xhr-resolved"]),O.buffer([u]),R.buffer(["setTimeout"+c,"clearTimeout"+s,u]),N.buffer([u,"new-xhr","send-xhr"+s]),P.buffer([m+s,m+"-done",m+f+s,m+f+c]),E.buffer(["newURL"]),x.buffer([u]),b.buffer(["propagate",p,l,"executor-err","resolve"+s]),S.buffer([u,"no-"+u]),T.buffer(["new-jsonp","cb-start","jsonp-error","jsonp-end"]),a(N,"send-xhr"+s),a(M,"xhr-resolved"),a(M,"xhr-done"),a(P,m+s),a(P,m+"-done"),a(T,"new-jsonp"),a(T,"jsonp-end"),a(T,"cb-start"),E.on("pushState-end",i),E.on("replaceState-end",i),w[v]("hashchange",i,!0),w[v]("load",i,!0),w[v]("popstate",function(){i(0,L>1)},!0)}},{}],5:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(13),s=t(12),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",p="resource",l="-start",h="-end",m="fn"+l,v="fn"+h,w="bstTimer",g="pushState",y=t("loader");y.features.stn=!0,t(8),"addEventListener"in window&&t(6);var x=NREUM.o.EV;o.on(m,function(t,e){var n=t[0];n instanceof x&&(this.bstStart=y.now())}),o.on(v,function(t,e){var n=t[0];n instanceof x&&i("bst",[n,e,this.bstStart,y.now()])}),a.on(m,function(t,e,n){this.bstStart=y.now(),this.bstType=n}),a.on(v,function(t,e){i(w,[e,this.bstStart,y.now(),this.bstType])}),s.on(m,function(){this.bstStart=y.now()}),s.on(v,function(t,e){i(w,[e,this.bstStart,y.now(),"requestAnimationFrame"])}),o.on(g+l,function(t){this.time=y.now(),this.startPath=location.pathname+location.hash}),o.on(g+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(p)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(p)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],6:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),s=t("wrap-function")(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=c(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?s(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],7:[function(t,e,n){function r(t,e,n){var r=t[e];"function"==typeof r&&(t[e]=function(){var t=i(arguments),e={};o.emit(n+"before-start",[t],e);var a;e[m]&&e[m].dt&&(a=e[m].dt);var s=r.apply(this,t);return o.emit(n+"start",[t,a],s),s.then(function(t){return o.emit(n+"end",[null,t],s),t},function(t){throw o.emit(n+"end",[t],s),t})})}var o=t("ee").get("fetch"),i=t(25),a=t(24);e.exports=o;var s=window,c="fetch-",f=c+"body-",u=["arrayBuffer","blob","json","text","formData"],d=s.Request,p=s.Response,l=s.fetch,h="prototype",m="nr@context";d&&p&&l&&(a(u,function(t,e){r(d[h],e,f),r(p[h],e,f)}),r(s,"fetch",c),o.on(c+"end",function(t,e){var n=this;if(e){var r=e.headers.get("content-length");null!==r&&(n.rxSize=r),o.emit(c+"done",[null,e],n)}else o.emit(c+"done",[t],n)}))},{}],8:[function(t,e,n){var r=t("ee").get("history"),o=t("wrap-function")(r);e.exports=r;var i=window.history&&window.history.constructor&&window.history.constructor.prototype,a=window.history;i&&i.pushState&&i.replaceState&&(a=i),o.inPlace(a,["pushState","replaceState"],"-")},{}],9:[function(t,e,n){function r(t){function e(){c.emit("jsonp-end",[],p),t.removeEventListener("load",e,!1),t.removeEventListener("error",n,!1)}function n(){c.emit("jsonp-error",[],p),c.emit("jsonp-end",[],p),t.removeEventListener("load",e,!1),t.removeEventListener("error",n,!1)}var r=t&&"string"==typeof t.nodeName&&"script"===t.nodeName.toLowerCase();if(r){var o="function"==typeof t.addEventListener;if(o){var a=i(t.src);if(a){var u=s(a),d="function"==typeof u.parent[u.key];if(d){var p={};f.inPlace(u.parent,[u.key],"cb-",p),t.addEventListener("load",e,!1),t.addEventListener("error",n,!1),c.emit("new-jsonp",[t.src],p)}}}}}function o(){return"addEventListener"in window}function i(t){var e=t.match(u);return e?e[1]:null}function a(t,e){var n=t.match(p),r=n[1],o=n[3];return o?a(o,e[r]):e[r]}function s(t){var e=t.match(d);return e&&e.length>=3?{key:e[2],parent:a(e[1],window)}:{key:t,parent:window}}var c=t("ee").get("jsonp"),f=t("wrap-function")(c);if(e.exports=c,o()){var u=/[?&](?:callback|cb)=([^&#]+)/,d=/(.*)\.([^.]+)/,p=/^(\w+)(\.|$)(.*)$/,l=["appendChild","insertBefore","replaceChild"];Node&&Node.prototype&&Node.prototype.appendChild?f.inPlace(Node.prototype,l,"dom-"):(f.inPlace(HTMLElement.prototype,l,"dom-"),f.inPlace(HTMLHeadElement.prototype,l,"dom-"),f.inPlace(HTMLBodyElement.prototype,l,"dom-")),c.on("dom-start",function(t){r(t[0])})}},{}],10:[function(t,e,n){var r=t("ee").get("mutation"),o=t("wrap-function")(r),i=NREUM.o.MO;e.exports=r,i&&(window.MutationObserver=function(t){return this instanceof i?new i(o(t,"fn-")):i.apply(this,arguments)},MutationObserver.prototype=i.prototype)},{}],11:[function(t,e,n){function r(t){var e=a.context(),n=s(t,"executor-",e),r=new f(n);return a.context(r).getCtx=function(){return e},a.emit("new-promise",[r,e],e),r}function o(t,e){return e}var i=t("wrap-function"),a=t("ee").get("promise"),s=i(a),c=t(24),f=NREUM.o.PR;e.exports=a,f&&(window.Promise=r,["all","race"].forEach(function(t){var e=f[t];f[t]=function(n){function r(t){return function(){a.emit("propagate",[null,!o],i),o=o||!t}}var o=!1;c(n,function(e,n){Promise.resolve(n).then(r("all"===t),r(!1))});var i=e.apply(f,arguments),s=f.resolve(i);return s}}),["resolve","reject"].forEach(function(t){var e=f[t];f[t]=function(t){var n=e.apply(f,arguments);return t!==n&&a.emit("propagate",[t,!0],n),n}}),f.prototype["catch"]=function(t){return this.then(null,t)},f.prototype=Object.create(f.prototype,{constructor:{value:r}}),c(Object.getOwnPropertyNames(f),function(t,e){try{r[e]=f[e]}catch(n){}}),a.on("executor-start",function(t){t[0]=s(t[0],"resolve-",this),t[1]=s(t[1],"resolve-",this)}),a.on("executor-err",function(t,e,n){t[1](n)}),s.inPlace(f.prototype,["then"],"then-",o),a.on("then-start",function(t,e){this.promise=e,t[0]=s(t[0],"cb-",this),t[1]=s(t[1],"cb-",this)}),a.on("then-end",function(t,e,n){this.nextPromise=n;var r=this.promise;a.emit("propagate",[r,!0],n)}),a.on("cb-end",function(t,e,n){a.emit("propagate",[n,!0],this.nextPromise)}),a.on("propagate",function(t,e,n){this.getCtx&&!e||(this.getCtx=function(){if(t instanceof Promise)var e=a.context(t);return e&&e.getCtx?e.getCtx():this})}),r.toString=function(){return""+f})},{}],12:[function(t,e,n){var r=t("ee").get("raf"),o=t("wrap-function")(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],13:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t("wrap-function")(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],14:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",s)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,g,"fn-",s)}function i(t){y.push(t),h&&(b?b.then(a):v?v(a):(E=-E,O.data=E))}function a(){for(var t=0;t<y.length;t++)r([],y[t]);y.length&&(y=[])}function s(t,e){return e}function c(t,e){for(var n in t)e[n]=t[n];return e}t(6);var f=t("ee"),u=f.get("xhr"),d=t("wrap-function")(u),p=NREUM.o,l=p.XHR,h=p.MO,m=p.PR,v=p.SI,w="readystatechange",g=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],y=[];e.exports=u;var x=window.XMLHttpRequest=function(t){var e=new l(t);try{u.emit("new-xhr",[e],e),e.addEventListener(w,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(c(l,x),x.prototype=l.prototype,d.inPlace(x.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var b=m&&m.resolve();if(!v&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===w||a()})},{}],15:[function(t,e,n){function r(t){if(!i(t))return null;var e=window.NREUM;if(!e.loader_config)return null;var n=(e.loader_config.accountID||"").toString()||null,r=(e.loader_config.agentID||"").toString()||null,s=(e.loader_config.trustKey||"").toString()||null;if(!n||!r)return null;var c=a.generateCatId(),f=a.generateCatId(),u=Date.now(),d=o(c,f,u,n,r,s);return{header:d,guid:c,traceId:f,timestamp:u}}function o(t,e,n,r,o,i){var a="btoa"in window&&"function"==typeof window.btoa;if(!a)return null;var s={v:[0,1],d:{ty:"Browser",ac:r,ap:o,id:t,tr:e,ti:n}};return i&&r!==i&&(s.d.tk=i),btoa(JSON.stringify(s))}function i(t){var e=!1,n=!1,r={};if("init"in NREUM&&"distributed_tracing"in NREUM.init&&(r=NREUM.init.distributed_tracing,n=!!r.enabled),n)if(t.sameOrigin)e=!0;else if(r.allowed_origins instanceof Array)for(var o=0;o<r.allowed_origins.length;o++){var i=s(r.allowed_origins[o]);if(t.hostname===i.hostname&&t.protocol===i.protocol&&t.port===i.port){e=!0;break}}return n&&e}var a=t(22),s=t(17);e.exports={generateTracePayload:r,shouldGenerateTrace:i}},{}],16:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<l;r++)t.removeEventListener(p[r],this.listener,!1);e.aborted||(n.duration=s.now()-this.startTime,this.loadCaptureCalled||4!==t.readyState?null==e.status&&(e.status=0):a(this,t),n.cbTime=this.cbTime,d.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime]))}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return v(r)}function i(t,e){var n=f(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.parsedOrigin=f(e),t.sameOrigin=t.parsedOrigin.sameOrigin}function a(t,e){t.params.status=e.status;var n=o(e,t.lastSize);if(n&&(t.metrics.rxSize=n),t.sameOrigin){var r=e.getResponseHeader("X-NewRelic-App-Data");r&&(t.params.cat=r.split(", ").pop())}t.loadCaptureCalled=!0}var s=t("loader");if(s.xhrWrappable){var c=t("handle"),f=t(17),u=t(15).generateTracePayload,d=t("ee"),p=["load","error","abort","timeout"],l=p.length,h=t("id"),m=t(20),v=t(19),w=window.XMLHttpRequest;s.features.xhr=!0,t(14),t(7),d.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,e.loadCaptureCalled=!1,t.addEventListener("load",function(n){a(e,t)},!1),m&&(m>34||m<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),d.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),d.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid);var n=u(this.parsedOrigin);n&&n.header&&(e.setRequestHeader("newrelic",n.header),this.dt=n)}),d.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=v(r);i&&(n.txSize=i)}this.startTime=s.now(),this.listener=function(t){try{"abort"!==t.type||o.loadCaptureCalled||(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{d.emit("internal-error",[n])}catch(r){}}};for(var a=0;a<l;a++)e.addEventListener(p[a],this.listener,!1)}),d.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),d.on("xhr-load-added",function(t,e){var n=""+h(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),d.on("xhr-load-removed",function(t,e){var n=""+h(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),d.on("addEventListener-end",function(t,e){e instanceof w&&"load"===t[0]&&d.emit("xhr-load-added",[t[1],t[2]],e)}),d.on("removeEventListener-end",function(t,e){e instanceof w&&"load"===t[0]&&d.emit("xhr-load-removed",[t[1],t[2]],e)}),d.on("fn-start",function(t,e,n){e instanceof w&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=s.now()))}),d.on("fn-end",function(t,e){this.xhrCbStart&&d.emit("xhr-cb-time",[s.now()-this.xhrCbStart,this.onload,e],e)}),d.on("fetch-before-start",function(t){var e,n=t[1]||{};"string"==typeof t[0]?e=t[0]:t[0]&&t[0].url&&(e=t[0].url),e&&(this.parsedOrigin=f(e),this.sameOrigin=this.parsedOrigin.sameOrigin);var r=u(this.parsedOrigin);if(r&&r.header){var o=r.header;if("string"==typeof t[0]){var i={};for(var a in n)i[a]=n[a];i.headers=new Headers(n.headers||{}),i.headers.set("newrelic",o),this.dt=r,t.length>1?t[1]=i:t.push(i)}else t[0]&&t[0].headers&&(t[0].headers.append("newrelic",o),this.dt=r)}})}},{}],17:[function(t,e,n){var r={};e.exports=function(t){if(t in r)return r[t];var e=document.createElement("a"),n=window.location,o={};e.href=t,o.port=e.port;var i=e.href.split("://");!o.port&&i[1]&&(o.port=i[1].split("/")[0].split("@").pop().split(":")[1]),o.port&&"0"!==o.port||(o.port="https"===i[0]?"443":"80"),o.hostname=e.hostname||n.hostname,o.pathname=e.pathname,o.protocol=i[0],"/"!==o.pathname.charAt(0)&&(o.pathname="/"+o.pathname);var a=!e.protocol||":"===e.protocol||e.protocol===n.protocol,s=e.hostname===document.domain&&e.port===n.port;return o.sameOrigin=a&&(!e.hostname||s),"/"===o.pathname&&(r[t]=o),o}},{}],18:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[f.now()].concat(s(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(24),s=t(25),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(t,e){u[e]=o(p+e,!0,"api")}),u.addPageAction=o(p+"addPageAction",!0),u.setCurrentRouteName=o(p+"routeName",!0),e.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[f.now(),t,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return e.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],n),t}finally{c.emit("fn-end",[f.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){h[e]=o(l+e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now(),!1,e])}},{}],19:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],20:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],21:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?a("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&a("timing",["fcp",Math.floor(t.startTime)])})}function o(t){if(t instanceof c&&!u){var e,n=Math.round(t.timeStamp);e=n>1e12?Date.now()-n:s.now()-n,u=!0,a("timing",["fi",n,{type:t.type,fid:e}])}}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var i,a=t("handle"),s=t("loader"),c=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){i=new PerformanceObserver(r);try{i.observe({entryTypes:["paint"]})}catch(f){}}if("addEventListener"in document){var u=!1,d=["click","keydown","mousedown","pointerdown","touchstart"];d.forEach(function(t){document.addEventListener(t,o,!1)})}}},{}],22:[function(t,e,n){function r(){function t(){return e?15&e[n++]:16*Math.random()|0}var e=null,n=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&(e=r.getRandomValues(new Uint8Array(31)));for(var o,i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",a="",s=0;s<i.length;s++)o=i[s],"x"===o?a+=t().toString(16):"y"===o?(o=3&t()|8,a+=o.toString(16)):a+=o;return a}function o(){function t(){return e?15&e[n++]:16*Math.random()|0}var e=null,n=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&Uint8Array&&(e=r.getRandomValues(new Uint8Array(31)));for(var o=[],i=0;i<16;i++)o.push(t().toString(16));return o.join("")}e.exports={generateUuid:r,generateCatId:o}},{}],23:[function(t,e,n){function r(t,e){if(!o)return!1;if(t!==o)return!1;if(!e)return!0;if(!i)return!1;for(var n=i.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var s=navigator.userAgent,c=s.match(a);c&&s.indexOf("Chrome")===-1&&s.indexOf("Chromium")===-1&&(o="Safari",i=c[1])}e.exports={agent:o,version:i,match:r}},{}],24:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],25:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],26:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function n(n,r,o,i){if(!p.aborted||i){t&&t(n,r,o);for(var a=e(o),s=m(n),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[y[n]];return d&&d.push([x,n,r,a]),a}}function l(t,e){g[t]=m(t).concat(e)}function h(t,e){var n=g[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return g[t]||[]}function v(t){return d[t]=d[t]||o(n)}function w(t,e){f(t,function(t,n){e=e||"feature",y[n]=e,e in u||(u[e]=[])})}var g={},y={},x={on:l,addEventListener:l,removeEventListener:h,emit:n,get:v,listeners:m,context:e,buffer:w,abort:a,aborted:!1};return x}function i(){return new r}function a(){(u.api||u.feature)&&(p.aborted=!0,u=p.backlog={})}var s="nr@context",c=t("gos"),f=t(24),u={},d={},p=e.exports=o();p.backlog=u},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!E++){var t=b.info=NREUM.info,e=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(y,function(e,n){t[e]||(t[e]=n)}),c("mark",["onload",a()+b.offset],null,"api");var n=l.createElement("script");n.src="https://"+t.agent,e.parentNode.insertBefore(n,e)}}function o(){"complete"===l.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(24),u=t("ee"),d=t(23),p=window,l=p.document,h="addEventListener",m="attachEvent",v=p.XMLHttpRequest,w=v&&v.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:v,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var g=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-spa-1158.min.js"},x=v&&w&&w[h]&&!/CriOS/.test(navigator.userAgent),b=e.exports={offset:s,now:a,origin:g,features:{},xhrWrappable:x,userAgent:d};t(18),t(21),l[h]?(l[h]("DOMContentLoaded",i,!1),p[h]("load",r,!1)):(l[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",s],null,"api");var E=0,O=t(26)},{}],"wrap-function":[function(t,e,n){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(25),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;e.exports=function(t,e){function n(t,e,n,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof n?n(r,a):n||{}}catch(f){p([f,"",[r,a,o],s])}u(e+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(e+"err",[r,a,d],s),d}finally{u(e+"end",[r,a,c],s)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,e,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<e.length;c++)s=e[c],a=t[s],r(a)||(t[s]=n(a,f?s+o:o,i,s))}function u(n,r,o){if(!c||e){var i=c;c=!0;try{t.emit(n,r,o,e)}catch(a){p([a,n,r,o])}c=i}}function d(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){p([r])}for(var o in t)s.call(t,o)&&(e[o]=t[o]);return e}function p(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),n.inPlace=f,n.flag=a,n}},{}]},{},["loader",2,16,5,3,4]);</script>
+  
+
+
+<meta name="bb-env" content="production" />
+<meta id="bb-canon-url" name="bb-canon-url" content="https://bitbucket.org">
+<meta name="bb-api-canon-url" content="https://api.bitbucket.org">
+<meta name="apitoken" content="{&quot;token&quot;: &quot;Ct4PW0EK0Ao7sMhSbnQo46W5mFCSzOWBwHby0pyLqORvlqAydQXNZA3wpo4CWHgMg6cyeX4qWVMruayXmlrP9tglCIs0rGv-V59uUFhnYhoIhRDXYAslCJ9v4yDfYEywuIGEUarRpFmH-RJ-xLE5-w==&quot;, &quot;expiration&quot;: 1579924648.994236}">
+
+
+<meta name="bb-commit-hash" content="92233925623f">
+<meta name="bb-app-node" content="app-1104">
+<meta name="bb-view-name" content="bitbucket.apps.pullrequests.views.pullrequest_diff">
+<meta name="ignore-whitespace" content="False">
+<meta name="tab-size" content="None">
+<meta name="locale" content="en">
+<meta name="application-name" content="Bitbucket">
+<meta name="apple-mobile-web-app-title" content="Bitbucket">
+<meta name="slack-app-id" content="A8W8QLZD1">
+<meta name="statuspage-api-host" content="https://bqlf8qjztdtr.statuspage.io">
+
+
+<meta name="theme-color" content="#0049B0">
+<meta name="msapplication-TileColor" content="#0052CC">
+<meta name="msapplication-TileImage" content="https://d301sr5gafysq2.cloudfront.net/92233925623f/img/logos/bitbucket/mstile-150x150.png">
+<link rel="apple-touch-icon" sizes="180x180" type="image/png" href="https://d301sr5gafysq2.cloudfront.net/92233925623f/img/logos/bitbucket/apple-touch-icon.png">
+<link rel="icon" sizes="192x192" type="image/png" href="https://d301sr5gafysq2.cloudfront.net/92233925623f/img/logos/bitbucket/android-chrome-192x192.png">
+
+<link rel="icon" sizes="16x16 24x24 32x32 64x64" type="image/x-icon" href="/favicon.ico?v=2">
+<link rel="mask-icon" href="https://d301sr5gafysq2.cloudfront.net/92233925623f/img/logos/bitbucket/safari-pinned-tab.svg" color="#0052CC">
+
+<link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="Bitbucket">
+
+  <meta name="description" content="">
+  
+    
+  
+
+
+
+  <link rel="stylesheet" href="https://d301sr5gafysq2.cloudfront.net/92233925623f/css/entry/vendor.css" />
+<link rel="stylesheet" href="https://d301sr5gafysq2.cloudfront.net/92233925623f/css/entry/app.css" />
+
+
+
+  <link rel="stylesheet" href="https://d301sr5gafysq2.cloudfront.net/92233925623f/css/entry/adg3-skeleton-nav.css">
+  <link rel="stylesheet" href="https://d301sr5gafysq2.cloudfront.net/92233925623f/css/entry/adg3.css">
+  
+  <script nonce="AKta4UDeTI2oAbCz">
+  window.__sentry__ = {"dsn": "https://ea49358f525d4019945839a3d7a8292a@sentry.io/159509", "release": "92233925623f (production)", "tags": {"project": "bitbucket-core"}, "environment": "production"};
+</script>
+<script src="https://d301sr5gafysq2.cloudfront.net/92233925623f/dist/webpack/sentry.js" nonce="AKta4UDeTI2oAbCz"></script>
+  <script src="https://d301sr5gafysq2.cloudfront.net/92233925623f/dist/webpack/early.js" nonce="AKta4UDeTI2oAbCz"></script>
+  
+  
+  
+  <meta name="twitter:card" content="summary"/>
+  <meta name="twitter:site" content="@bitbucket"/>
+  <meta name="og:type" content="bitbucket:pullrequest"/>
+  <meta name="og:title" content="Master git 2 mirror"/>
+  <meta name="og:url" content="https://bitbucket.org/firewiccagroup/.git-2-mirror/pull-requests/1/master-git-2-mirror"/>
+  
+    <meta name="og:description" content="* dumpsexp.c
+* PilotingItfProvider.html
+* revert-167-master.html
+
+‌"/>
+  
+  
+    <meta name="og:image" content="https://bytebucket.org/ravatar/%7B819294a1-1fb4-475e-9190-13bbb473f49a%7D?ts=default"/>
+  
+  
+
+</head>
+<body class="production adg3 "
+    data-static-url="https://d301sr5gafysq2.cloudfront.net/92233925623f/"
+data-base-url="https://bitbucket.org"
+data-no-avatar-image="img/default_avatar/user_blue.svg"
+data-current-user="{&quot;displayName&quot;: &quot;Ambjoern Skoeld\ud83d\udee1&quot;, &quot;uuid&quot;: &quot;{2caa4c38-2859-48ec-8fb1-1f724f918d66}&quot;, &quot;hasPremium&quot;: false, &quot;avatarUrl&quot;: &quot;https://secure.gravatar.com/avatar/993bc96b47c84a95eeda19b63169a17f?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAS-1.png&quot;, &quot;isTeam&quot;: false, &quot;isSshEnabled&quot;: false, &quot;mention_id&quot;: &quot;5bd0a5744b76d050e296ec7a&quot;, &quot;isKbdShortcutsEnabled&quot;: true, &quot;avatarUrl2x&quot;: &quot;https://secure.gravatar.com/avatar/993bc96b47c84a95eeda19b63169a17f?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAS-1.png&amp;s=64&quot;, &quot;nickname&quot;: &quot;Ambjorn Skold&quot;, &quot;id&quot;: 13023181, &quot;isAuthenticated&quot;: true}"
+data-atlassian-id="{&quot;loginUrl&quot;: &quot;https://id.atlassian.com/login?continue=https%3A%2F%2Fbitbucket.org%2Ffirewiccagroup%2F.git-2-mirror%2Fpull-requests%2F1%2Fmaster-git-2-mirror%2Fdiff&amp;prompt=login&quot;, &quot;loginStatusUrl&quot;: &quot;https://id.atlassian.com/profile/rest/profile&quot;}"
+data-settings="{&quot;MENTIONS_MIN_QUERY_LENGTH&quot;: 1}"
+
+data-current-repo="{&quot;scm&quot;: &quot;git&quot;, &quot;fullslug&quot;: &quot;firewiccagroup/.git-2-mirror&quot;, &quot;uuid&quot;: &quot;819294a1-1fb4-475e-9190-13bbb473f49a&quot;, &quot;language&quot;: &quot;&quot;, &quot;baseUrl&quot;: &quot;firewiccagroup&quot;, &quot;id&quot;: 60635373, &quot;readOnly&quot;: false, &quot;mainbranch&quot;: {&quot;name&quot;: &quot;master&quot;}, &quot;owner&quot;: {&quot;username&quot;: &quot;firewiccagroup&quot;, &quot;uuid&quot;: &quot;2caa4c38-2859-48ec-8fb1-1f724f918d66&quot;, &quot;isTeam&quot;: false}, &quot;pygmentsLanguage&quot;: null, &quot;slug&quot;: &quot;.git-2-mirror&quot;}"
+
+data-current-pr="{&quot;status&quot;: &quot;fulfilled&quot;, &quot;localId&quot;: 1, &quot;author&quot;: {&quot;mention_id&quot;: &quot;5bd0a5744b76d050e296ec7a&quot;, &quot;aid_id&quot;: &quot;5bd0a5744b76d050e296ec7a&quot;, &quot;uuid&quot;: &quot;{2caa4c38-2859-48ec-8fb1-1f724f918d66}&quot;}, &quot;fromRepositoryUuid&quot;: &quot;819294a1-1fb4-475e-9190-13bbb473f49a&quot;, &quot;dest_rev&quot;: &quot;ccd87e47e442&quot;, &quot;anchor&quot;: &quot;b9b184c20d04&quot;, &quot;uses_comment_service&quot;: null}"
+data-current-pr-history="{&quot;id&quot;: 951261079}"
+
+
+
+
+data-browser-monitoring="true"
+data-switch-create-pullrequest-commit-status="true"
+
+
+data-atlassian-editor-enabled="true"
+data-atlassian-emoji-base-url="https://api-private.atlassian.com/emoji/"
+>
+  <div id="page">
+  
+    <div id="adg3-banner-root"></div>
+    <div id="adg3-navigation" data-nav-next
+  
+  
+  
+  >
+  <nav class="skeleton-nav">
+    <div class="skeleton-nav--left">
+      <div class="skeleton-nav--left-top">
+        <ul class="skeleton-nav--items">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li class="skeleton--icon"></li>
+          <li class="skeleton--icon-sub"></li>
+          <li class="skeleton--icon-sub"></li>
+          <li class="skeleton--icon-sub"></li>
+          <li class="skeleton--icon-sub"></li>
+          <li class="skeleton--icon-sub"></li>
+          <li class="skeleton--icon-sub"></li>
+        </ul>
+      </div>
+      <div class="skeleton-nav--left-bottom">
+        <div class="skeleton-nav--left-bottom-wrapper">
+          <div class="skeleton-nav--item-help"></div>
+          <div class="skeleton-nav--item-profile"></div>
+        </div>
+      </div>
+    </div>
+    <div class="skeleton-nav--right">
+      <ul class="skeleton-nav--items-wide">
+        <li class="skeleton--icon-logo-container">
+          <div class="skeleton--icon-container"></div>
+          <div class="skeleton--icon-description"></div>
+          <div class="skeleton--icon-logo"></div>
+        </li>
+        <li>
+          <div class="skeleton--icon-small"></div>
+          <div class="skeleton-nav--item-wide-content"></div>
+        </li>
+        <li>
+          <div class="skeleton--icon-small"></div>
+          <div class="skeleton-nav--item-wide-content"></div>
+        </li>
+        <li>
+          <div class="skeleton--icon-small"></div>
+          <div class="skeleton-nav--item-wide-content"></div>
+        </li>
+        <li>
+          <div class="skeleton--icon-small"></div>
+          <div class="skeleton-nav--item-wide-content"></div>
+        </li>
+        <li>
+          <div class="skeleton--icon-small"></div>
+          <div class="skeleton-nav--item-wide-content"></div>
+        </li>
+        <li>
+          <div class="skeleton--icon-small"></div>
+          <div class="skeleton-nav--item-wide-content"></div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>
+    <div id="wrapper">
+      
+  
+
+<div id="account-warning" data-module="header/account-warning"
+  data-unconfirmed-addresses="false"
+  data-no-addresses="false"
+  
+></div>
+
+
+
+      
+  
+<header id="aui-message-bar">
+  
+</header>
+
+
+      <div id="content" role="main">
+        <div class="js-suggestion-banner-mount-point"></div>
+
+        
+          <header class="app-header">
+
+            <div class="app-header--primary">
+              
+                <div class="app-header--context">
+                  <div class="app-header--breadcrumbs">
+                    
+  <ol class="aui-nav aui-nav-breadcrumbs">
+    
+  <li>
+    <a href="/%7B2caa4c38-2859-48ec-8fb1-1f724f918d66%7D/">Ambjoern Skoeld🛡</a>
+  </li>
+  
+
+<li>
+  <a href="/firewiccagroup/.git-2-mirror">.git-2-mirror</a>
+</li>
+    
+  <li>
+    <a href="/firewiccagroup/.git-2-mirror/pull-requests/">
+      Pull requests
+    </a>
+  </li>
+
+  </ol>
+
+                  </div>
+                  <h1 class="app-header--heading">
+                    
+  <span class="pull-request-title">Master git 2 mirror</span>
+
+                  </h1>
+                </div>
+              
+            </div>
+
+            <div class="app-header--secondary">
+              
+                
+              
+            </div>
+          </header>
+        
+
+        
+        
+  <div class="aui-page-panel ">
+    <div class="hidden">
+
+
+</div>
+    <div class="aui-page-panel-inner">
+      <div
+        id="repo-content"
+        class="aui-page-panel-content forks-enabled can-create"
+        data-module="repo/index"
+        
+          data-project-id="7828212"
+        
+      >
+        
+  
+
+
+  <span id="user-repo-privilege-data" data-priv='admin'></span>
+
+  
+  
+  
+  <section id="pullrequest"
+      class="pullrequest view-pullrequest"
+      data-conflicts-url="/api/1.0/repositories/firewiccagroup/.git-2-mirror/pullrequests/1/conflict-status"
+      
+      data-updates-url="/!api/internal/repositories/firewiccagroup/.git-2-mirror/pullrequests/1/updates"
+      
+      data-allow-task-creation="true"
+      data-local-id="1"
+      data-last-updated="2020-01-25T03:52:28.894431"
+      data-participants-url="/!api/2.0/repositories/firewiccagroup/.git-2-mirror/pullrequests/1?fields=participants,author,created_on"
+      data-likes-url="/!api/internal/repositories/firewiccagroup/.git-2-mirror/pullrequests/1/approve"
+      data-noun="pull request"
+      data-has-source-access="true"
+      data-sync-url="/firewiccagroup/.git-2-mirror/branches/merge/master%0Db9b184c20d046edf9e48c3b0600daafd98a1bacd"
+      data-compare-source-value=""
+      data-compare-dest-value="firewiccagroup/.git-2-mirror::master"
+      data-source-branch=""
+      data-source-cset="b9b184c20d046edf9e48c3b0600daafd98a1bacd"
+      data-dest-branch="master"
+      
+      data-sync-conflict-url="/firewiccagroup/.git-2-mirror/compare/master%0Db9b184c20d046edf9e48c3b0600daafd98a1bacd#diff"
+      data-url-sync-conflicts="/api/internal/repositories/firewiccagroup/.git-2-mirror/conflicts/master%0Db9b184c20d046edf9e48c3b0600daafd98a1bacd">
+
+    <script id="participant-template" type="text/html">
+  
+<li data-username="[[uuid]]">
+  <a [[^unmapped]]
+     href="/[[uuid]]/"
+     [[/unmapped]]
+     class="[[#approved]]approved[[/approved]]"
+     [[#approved]]
+       title="[[display_name]] approved this [[noun]] [[date]]"
+     [[/approved]]
+     [[^approved]]
+        [[#date]]
+          title="[[display_name]] updated this [[noun]] [[date]]"
+        [[/date]]
+        [[^date]]
+          title="[[display_name]][[#unmapped]] (This user cannot be matched to an Atlassian account)[[/unmapped]]"
+        [[/date]]
+     [[/approved]]
+    >
+    <span class="aui-avatar
+      [[#size]]
+       aui-avatar-[[size]]
+      [[/size]]
+      [[^size]]
+       aui-avatar-medium
+      [[/size]]">
+      <span class="aui-avatar-inner">
+        <img alt="[[display_name]]"
+         [[#unmapped]]
+           src="https://d301sr5gafysq2.cloudfront.net/92233925623f/img/unmapped_author_32.png"
+         [[/unmapped]]
+         [[^unmapped]]
+           [[#avatar]]
+             src="[[avatar]]"
+           [[/avatar]]
+           [[^avatar]]
+             src="https://d301sr5gafysq2.cloudfront.net/92233925623f/img/no_avatar.png"
+           [[/avatar]]
+         [[/unmapped]] />
+      </span>
+    </span>
+    <span>[[display_name]]</span>
+  </a>
+</li>
+
+</script>
+    
+      <header id="pull-request-header" class="clearfix">
+        <div class="pull-request-meta clearfix">
+          <div id="pull-request-attrs" data-status="fulfilled"></div>
+          <div class="pull-request-status">
+            <a href="/firewiccagroup/.git-2-mirror/pull-requests/1/master-git-2-mirror" class="pull-request-self-link">#1</a>
+            <span class="aui-lozenge aui-lozenge-success">Merged</span>
+            
+              at <a href="/firewiccagroup/.git-2-mirror/commits/dbf5cae024ca" class="changeset-hash">dbf5cae</a>
+            
+          </div>
+          <div class="compare-widget-container">
+            
+
+<div class="compare-widget readonly"
+    
+      data-user-display-name="Ambjoern Skoeld🛡"
+      data-user-name="firewiccagroup"
+      data-user-avatar="https://secure.gravatar.com/avatar/993bc96b47c84a95eeda19b63169a17f?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAS-1.png&amp;s=32"
+      data-user-url="/%7B2caa4c38-2859-48ec-8fb1-1f724f918d66%7D/"
+      
+        data-branch-deleted="true"
+      
+      
+        data-repo-name=".git-2-mirror"
+        data-repo-avatar="https://bytebucket.org/ravatar/%7B819294a1-1fb4-475e-9190-13bbb473f49a%7D?ts=default"
+        data-repo-url="/firewiccagroup/.git-2-mirror/overview"
+        
+        
+          data-commit-id="b9b184c"
+          data-commit-url="/firewiccagroup/.git-2-mirror/commits/b9b184c20d04"
+        
+      
+    
+    data-branch-name="master-git-2-mirror"
+    >
+  <label for="id_source_group">Source</label>
+  <section id="id_source_group" class="compare-widget-item">
+    
+      <dl>
+        <dt>Repository</dt>
+        
+
+        <dt>Branch</dt>
+        <dd class="branch unabridged">
+          <span class="aui-icon aui-icon-small aui-iconfont-devtools-branch-small"></span>
+          
+            <a title="master-git-2-mirror"
+               href="/firewiccagroup/.git-2-mirror/branch/master-git-2-mirror"
+              >master-git-2-mirror</a>
+          
+        </dd>
+      </dl>
+    
+
+  </section>
+</div>
+
+            
+
+<div class="compare-widget readonly"
+    
+      data-user-display-name="Ambjoern Skoeld🛡"
+      data-user-name="firewiccagroup"
+      data-user-avatar="https://secure.gravatar.com/avatar/993bc96b47c84a95eeda19b63169a17f?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAS-1.png&amp;s=32"
+      data-user-url="/%7B2caa4c38-2859-48ec-8fb1-1f724f918d66%7D/"
+      
+      
+        data-repo-name=".git-2-mirror"
+        data-repo-avatar="https://bytebucket.org/ravatar/%7B819294a1-1fb4-475e-9190-13bbb473f49a%7D?ts=default"
+        data-repo-url="/firewiccagroup/.git-2-mirror/overview"
+        
+          data-branch-url="/firewiccagroup/.git-2-mirror/branch/master"
+        
+        
+          data-commit-id="ccd87e4"
+          data-commit-url="/firewiccagroup/.git-2-mirror/commits/ccd87e47e442"
+        
+      
+    
+    data-branch-name="master"
+    >
+  <label for="id_dest_group">Destination</label>
+  <section id="id_dest_group" class="compare-widget-item">
+    
+      <dl>
+        <dt>Repository</dt>
+        
+
+        <dt>Branch</dt>
+        <dd class="branch unabridged">
+          <span class="aui-icon aui-icon-small aui-iconfont-devtools-branch-small"></span>
+          
+            <a title="master"
+               href="/firewiccagroup/.git-2-mirror/branch/master"
+              >master</a>
+          
+        </dd>
+      </dl>
+    
+
+  </section>
+</div>
+
+            <script id="branch-details-template" type="text/html">
+  
+<div>
+  <dl>
+    [[#username]]
+      <div class="owner">
+        <dt>
+          Owner
+        </dt>
+        <dd>
+          <a title="[[display_name]]" href="[[user_url]]">
+            <span class="aui-avatar aui-avatar-small">
+              <span class="aui-avatar-inner">
+                <img src="[[user_avatar]]">
+              </span>
+            </span>
+            <span>[[display_name]]</span>
+          </a>
+        </dd>
+      </div>
+    [[/username]]
+    [[#repo_name]]
+    <div class="repo">
+      <dt>
+        Name
+      </dt>
+      <dd>
+        <a title="[[repo_name]]" href="[[repo_url]]">
+           <span class="repository-avatar aui-avatar aui-avatar-project aui-avatar-[[size]]">
+             <span class="aui-avatar-inner">
+               <img src="[[repo_avatar]]">
+             </span>
+           </span>
+          <span>[[repo_name]]</span>
+        </a>
+      </dd>
+    </div>
+    [[/repo_name]]
+    <div class="branch">
+      <dt>
+        Branch
+      </dt>
+      <dd>
+        [[#branch_url]]
+          <a href="[[branch_url]]">
+            [[branch_name]]
+            [[#branch_state]]
+              ([[branch_state]])
+            [[/branch_state]]
+          </a>
+        [[/branch_url]]
+        [[^branch_url]]
+          <span>
+            [[branch_name]]
+            [[#branch_state]]
+              ([[branch_state]])
+            [[/branch_state]]
+          </span>
+        [[/branch_url]]
+      </dd>
+    </div>
+    [[#commit_id]]
+      <div class="commit">
+        <dt>
+          Commit
+        </dt>
+        <dd>
+          <a class="hash" href="[[commit_url]]">[[commit_id]]</a>
+        </dd>
+      </div>
+    [[/commit_id]]
+  </dl>
+  [[^branch_deleted]]
+    <form class="aui branch-checkout">
+      <label class="assistive">
+        Checkout command
+      </label>
+      <input
+        class="text full-width-field branch-checkout--input"
+        type="text"
+        value="[[#is_hg]]hg update[[/is_hg]][[^is_hg]]git checkout[[/is_hg]] [[branch_name]]"
+      >
+    </form>
+  [[/branch_deleted]]
+</div>
+
+</script>
+          </div>
+          
+
+<div id="pullrequest-actions">
+  
+     
+
+<div class="aui-buttons approve"
+     data-approval-count="1"
+     data-has-current-user-approved="true"
+     data-approval-node="b9b184c20d04">
+  <button id="approve-button" class="aui-button approve-button"
+          aria-disabled="true" disabled>
+      <span>Unapprove</span>
+  </button>
+    <span class="approvals">1</span>
+</div>
+
+  
+  <script id="pullrequest-approve-button-template" type="text/html">
+  
+
+<div class="aui-buttons approve"
+     data-approval-count="[[approvalCount]]"
+     [[#hasCurrentUserApproved]]data-has-current-user-approved="true"[[/hasCurrentUserApproved]]
+     [[#approvalNode]]data-approval-node="[[approvalNode]]"[[/approvalNode]]>
+  <button id="approve-button" class="aui-button approve-button"
+          [[#isApproveDisabled]]aria-disabled="true" disabled[[/isApproveDisabled]]>
+    [[#hasCurrentUserApproved]]
+      <span>Unapprove</span>
+    [[/hasCurrentUserApproved]]
+    [[^hasCurrentUserApproved]]
+      <span>Approve</span>
+    [[/hasCurrentUserApproved]]
+  </button>
+  [[#showApprovalCount]]
+    <span class="approvals">[[approvalCount]]</span>
+  [[/showApprovalCount]]
+</div>
+
+</script>
+
+  <div class="aui-buttons">
+    
+    
+      
+        
+        
+          <button id="revert-pullrequest" class="aui-button"
+              data-form-url="/firewiccagroup/.git-2-mirror/pull-requests/1/master-git-2-mirror/revert"
+              rel="nofollow">
+            Revert
+          </button>
+        
+      
+    
+  </div>
+</div>
+
+
+        </div>
+        
+
+
+
+      </header>
+      <div>
+        <div class="aui-tabs horizontal-tabs aui-tabs-disabled" data-module="pullrequests/navigation" id="pullrequest-navigation"> 
+          <ul class="tabs-menu pr-tab-links">
+            <li class="menu-item active-tab">
+              <a id="pr-menu-diff"
+                 class="pjax-trigger"
+                 data-tab-link-id="diff"
+                 href="/firewiccagroup/.git-2-mirror/pull-requests/1/master-git-2-mirror/diff">Overview</a>
+            </li>
+            <li class="menu-item ">
+              <a id="pr-menu-commits"
+                 class="pjax-trigger"
+                 data-tab-link-id="commits"
+                 href="/firewiccagroup/.git-2-mirror/pull-requests/1/master-git-2-mirror/commits">
+                Commits
+              </a>
+            </li>
+            <li class="menu-item ">
+              <a id="pr-menu-activity"
+                 class="pjax-trigger"
+                 data-tab-link-id="activity"
+                 href="/firewiccagroup/.git-2-mirror/pull-requests/1/master-git-2-mirror/activity">Activity</a>
+            </li>
+            
+          </ul>
+          <div id="pr-tab-content-wrapper" class="tabs-pane active-pane diff">
+            <div id="diff-tab-preload">
+              
+<header id="pull-request-diff-header" class="aui-group">
+  <div class="aui-item main"
+    >
+    <dl>
+      <div class="clearfix author" id="pullrequest-author"
+          
+            data-current-user-is-author="true"
+          >
+        <dt>Author</dt>
+        <dd class="participants">
+          <div>
+            <ol>
+              <li>
+                
+
+<a href="/%7B2caa4c38-2859-48ec-8fb1-1f724f918d66%7D/" title="Ambjoern Skoeld🛡"><div class="aui-avatar aui-avatar-medium"><div class="aui-avatar-inner"><img src="https://d301sr5gafysq2.cloudfront.net/92233925623f/img/default_avatar/user_blue.svg" class="deferred-image"
+              data-src-url="https://secure.gravatar.com/avatar/993bc96b47c84a95eeda19b63169a17f?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAS-1.png&amp;s=32"
+              data-src-url-2x="https://secure.gravatar.com/avatar/993bc96b47c84a95eeda19b63169a17f?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAS-1.png&amp;s=64" alt=""></div></div><span title="Ambjoern Skoeld🛡">Ambjoern Skoeld🛡</span></a>
+
+              </li>
+            </ol>
+            <script id="no-reviewers-template" type="text/html">
+  
+
+<li>No reviewers</li>
+
+</script>
+          </div>
+        </dd>
+      </div>
+      <div class="clearfix reviewers-group">
+        <dt>
+          Reviewers
+        </dt>
+        <dd class="participants">
+          <ol class="clearfix" data-participants-flag="true">
+            <li class="empty"></li>
+          </ol>
+        </dd>
+      </div>
+      <div class="clearfix description">
+        <dt>Description</dt>
+        
+          <dd class="wiki-content">
+            <ul>
+<li>dumpsexp.c</li>
+<li>PilotingItfProvider.html</li>
+<li>revert-167-master.html</li>
+</ul>
+<p>‌</p>
+          </dd>
+        
+      </div>
+      
+        
+        
+      
+    </dl>
+  </div>
+  <div class="aui-item detail-summary--panel">
+    <ul class="detail-summary--section">
+      
+      
+      
+      
+      
+        
+          <li id="watch-pullrequest" class="watch detail-summary--item"
+              data-is-watching="true">
+             
+
+
+  <span class="aui-icon aui-icon-small aui-iconfont-watch detail-summary--icon">Currently watching</span>
+  <a href="/firewiccagroup/.git-2-mirror/pull-requests/1/follow">Stop watching</a>
+
+            <script id="pullrequest-watch-template" type="text/html">
+  
+
+
+[[#isWatchedByCurrentUser]]
+  <span class="aui-icon aui-icon-small aui-iconfont-watch detail-summary--icon">Currently watching</span>
+  <a href="/firewiccagroup/.git-2-mirror/pull-requests/1/follow">Stop watching</a>
+[[/isWatchedByCurrentUser]]
+[[^isWatchedByCurrentUser]]
+  <span class="aui-icon aui-icon-small aui-iconfont-unwatch detail-summary--icon">Not watching</span>
+  <a href="/firewiccagroup/.git-2-mirror/pull-requests/1/follow">Watch this pull request</a>
+[[/isWatchedByCurrentUser]]
+
+</script>
+          </li>
+        
+      
+      <li id="pullrequest-task-list" class="tasks detail-summary--item">
+        
+           
+
+
+          <script id="pullrequest-tasks-count-template" type="text/html">
+  
+
+[[#has_tasks]]
+  <span class="aui-icon aui-icon-small aui-iconfont-editor-task detail-summary--icon"></span>
+  <a href="#show-tasks">
+    
+      All tasks resolved
+    
+  </a>
+[[/has_tasks]]
+</script>
+        
+      </li>
+      
+      
+        
+        
+        
+        
+      
+    </ul>
+  </div>
+</header>
+
+              
+<section id="general-comments" class="main">
+  <h1>
+    
+      Comments (<span class="comment-count">0</span>)
+    
+  </h1>
+  <ol id="comments-list" class="comments-list line-commenting">
+    <div id="general-thread-ids" data-value="[]"></div>
+    
+    
+      
+        
+           
+<li class="new-comment">
+  <div class="user">
+    <div class="aui-avatar aui-avatar-medium">
+      <div class="aui-avatar-inner">
+        <img src="https://d301sr5gafysq2.cloudfront.net/92233925623f/img/default_avatar/user_blue.svg" class="deferred-image"
+            data-src-url="https://secure.gravatar.com/avatar/993bc96b47c84a95eeda19b63169a17f?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAS-1.png"
+            data-src-url-2x="https://secure.gravatar.com/avatar/993bc96b47c84a95eeda19b63169a17f?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAS-1.png&amp;s=64">
+      </div>
+    </div>
+  </div>
+  <ak-editor-bitbucket
+    default-value=""
+    context="comment"
+    placeholder="What do you want to say?"
+    show-buttons="true"
+    data-mention-url=""
+  ></ak-editor-bitbucket>
+  <div class="error"></div>
+  <div class="autoformatting-hints">Hint: Try **bold**, `inline code` or ``` for code blocks.</div>
+</li>
+
+        
+      
+    
+  </ol>
+</section>
+
+
+
+<script id="comment-template" type="text/html">
+  
+
+
+  
+    
+[[#deleted]]
+<div class="deleted-comment-message" id="comment-[[comment_id]]" data-comment-id="[[comment_id]]">
+  Comment deleted
+</div>
+[[/deleted]]
+
+[[^deleted]]
+<article id="comment-[[comment_id]]" class="iterable-item"
+         data-content="[[content]]" data-comment-id="[[comment_id]]"
+         data-convert-markup="[[convert_markup]]">
+  <header>
+    [[#username]]<a href="/[[uuid]]/"title="[[uuid]]">[[/username]]
+      <div class="aui-avatar aui-avatar-medium author-avatar">
+        <div class="aui-avatar-inner">
+          <img src="https://d301sr5gafysq2.cloudfront.net/92233925623f/img/default_avatar/user_blue.svg" class="deferred-image"
+              data-src-url="[[user_avatar_url]]"
+              data-src-url-2x="[[user_avatar_url_2x]]">
+        </div>
+      </div>
+    [[#username]]</a>[[/username]]
+    [[#username]]
+      <a href="/[[uuid]]/" class="author-name">[[display_name]]</a>
+    [[/username]]
+    [[^username]]
+      <span class="author-name">[[display_name]]</span>
+    [[/username]]
+    [[#account_status_lozenge]]
+      <span class="aui-lozenge">[[account_status_lozenge]]</span>
+    [[/account_status_lozenge]]
+    [[#is_entity_author]]
+      <span class="aui-lozenge aui-lozenge-complete aui-lozenge-subtle author-lozenge">author</span>
+    [[/is_entity_author]]
+    [[^is_entity_author]]
+      [[#is_repo_owner]]
+        <span class="aui-lozenge aui-lozenge-complete aui-lozenge-subtle owner-lozenge">repo owner</span>
+      [[/is_repo_owner]]
+    [[/is_entity_author]]
+  </header>
+  <div class="wiki-content comment-content">
+    [[{content_rendered}]]
+  </div>
+  <ul class="comment-actions">
+    
+
+[[#isAuthenticated]]
+  <li>
+    <a href="#reply" class="reply-link execute click" data-add-to-stack="true">Reply</a>
+  </li>
+[[/isAuthenticated]]
+[[#isLikable]]
+  <li>
+    <a href="#like" class="comment-actions--toggle-like"></a>
+  </li>
+[[/isLikable]]
+[[#isAuthenticated]]
+  <li class="comment-actions--like-info hidden" data-likes="[[likes]]"></li>
+[[/isAuthenticated]]
+[[#isEditable]]
+  <li>
+    <a href="#edit" class="edit-link">Edit</a>
+  </li>
+  <li>
+    <a href="#delete" class="delete-link">Delete</a>
+  </li>
+[[/isEditable]]
+[[^isEditable]]
+  [[#isAdmin]]
+  <li>
+    <a href="#delete" class="delete-link">Delete</a>
+  </li>
+  [[/isAdmin]]
+[[/isEditable]]
+[[#show_tasks]]
+  [[#allow_task_creation]]
+    <li>
+      <a href="#create-task" class="task-link execute click">Create task</a>
+    </li>
+  [[/allow_task_creation]]
+[[/show_tasks]]
+<li>
+  <a class="permalink" href="#comment-[[comment_id]]" title="Link directly to this comment"><time datetime="[[utc_created_on]]" data-title="true">[[utc_created_on]]</time></a>
+</li>
+
+  </ul>
+</article>
+[[/deleted]]
+
+  
+
+<ul class="task-list"></ul>
+<ol class="child-comments iterable"></ol>
+
+</script>
+<script id="new-comment-template" type="text/html">
+  
+<li class="new-comment">
+  <div class="user">
+    <div class="aui-avatar aui-avatar-medium">
+      <div class="aui-avatar-inner">
+        <img src="https://d301sr5gafysq2.cloudfront.net/92233925623f/img/default_avatar/user_blue.svg" class="deferred-image"
+            data-src-url="[[user_avatar_url]]"
+            data-src-url-2x="[[user_avatar_url_2x]]">
+      </div>
+    </div>
+  </div>
+  <form class="aui top-label editor" action="#">
+    <input type="hidden" class="parent_id"/>
+    <input type="hidden" class="comment_id"/>
+    [[#convert_markup]]
+      <div class="warning aui-message aui-message-warning convert-markup">
+        <span class="aui-icon icon-warning"></span>
+        
+        This comment is currently being rendered in creole. Editing the comment will cause it to be rendered in <a target="_blank" href="https://confluence.atlassian.com/x/jIAuEg">markdown</a>.
+        
+      </div>
+    [[/convert_markup]]
+    <div class="field-group">
+      <textarea id="id_new_comment" class="bb-mention-input"
+          
+          placeholder="What do you want to say?">[[content]]</textarea>
+      <div class="preview-container wiki-content"><!-- loaded via ajax --></div>
+      <div class="error"></div>
+    </div>
+    
+      <div class="gdpr-legacy-mentions-notice">
+      </div>
+    
+    <div class="buttons">
+      <button class="aui-button aui-button-primary js-comment-button" type="submit">Comment</button>
+      <a href="#" class="cancel">Cancel</a>
+      
+      
+
+    </div>
+    <div class="mask"></div>
+  </form>
+</li>
+
+</script>
+<script id="new-atlassian-editor-comment-template" type="text/html">
+  
+<li class="new-comment">
+  <div class="user">
+    <div class="aui-avatar aui-avatar-medium">
+      <div class="aui-avatar-inner">
+        [[^hide_avatar]]
+        <img src="https://d301sr5gafysq2.cloudfront.net/92233925623f/img/default_avatar/user_blue.svg" class="deferred-image"
+            data-src-url="[[user_avatar_url]]"
+            data-src-url-2x="[[user_avatar_url_2x]]">
+        [[/hide_avatar]]
+      </div>
+    </div>
+  </div>
+  [[#convert_markup]]
+    <div class="warning aui-message aui-message-warning convert-markup">
+      <span class="aui-icon icon-warning"></span>
+      
+      This comment is currently being rendered in creole. Editing the comment will cause it to be rendered in <a target="_blank" href="https://confluence.atlassian.com/x/jIAuEg">markdown</a>.
+      
+    </div>
+  [[/convert_markup]]
+  <ak-editor-bitbucket
+    default-value="[[content]]"
+    context="comment"
+    placeholder="What do you want to say?"
+    show-buttons="true"
+    data-mention-url=""
+    [[#can_private_comment]]
+      private-comment-checkbox="true"
+      [[#is_private]]
+        private-comment-checked="true"
+      [[/is_private]]
+    [[/can_private_comment]]
+  ></ak-editor-bitbucket>
+  <div class="error"></div>
+  <div class="autoformatting-hints">Hint: Try **bold**, `inline code` or ``` for code blocks.</div>
+</li>
+
+</script>
+
+
+            </div>
+            <div id="pr-tab-content" class="maskable">
+              <div id="pr-tab-info" data-active-tab-on-load="diff"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    <div id="pr-toolbar" class="hidden">
+      <div class="qr-notice participants clearfix">
+        <ol></ol>
+        <div class="pr-update-notice">
+          
+            Pull request updated. <a href="#reload">Reload</a>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+  <script id="comment-changed-template" type="text/html">
+  
+
+[[#edited]]
+  <div class="comment-edited comment-changed">
+    <span class="aui-lozenge aui-lozenge-current">
+      Edited
+    </span>
+    <a href="#delete-comment">
+      Update
+    </a>
+  </div>
+[[/edited]]
+[[#deleted]]
+  <div class="comment-deleted comment-changed">
+    <span class="aui-lozenge aui-lozenge-error">
+      Deleted
+    </span>
+    <a href="#delete-comment">
+      Hide
+    </a>
+  </div>
+[[/deleted]]
+
+</script>
+  <script id="participant-liveupdate-template" type="text/html">
+  
+
+<a href="/[[username]]/"
+  [[#hasComments]]
+    title="[[display_name]] commented on this pull request. Click to load next comment"
+  [[/hasComments]]
+  [[^hasComments]]
+    [[#approved]]
+      title="[[display_name]] approved this pull request. Click to show all approvals"
+    [[/approved]]
+    [[^approved]]
+      title="[[display_name]] is viewing this pull request"
+    [[/approved]]
+  [[/hasComments]]
+  >
+  <span class="participants-badge aui-badge
+    [[#viewing]]
+      viewing
+    [[/viewing]]
+    [[#hasComments]]
+      commented
+    [[/hasComments]]
+    [[^hasComments]]
+      [[#approved]]
+        approved
+      [[/approved]]
+    [[/hasComments]]
+  ">[[#hasComments]][[comments]][[/hasComments]]</span>
+    <span class="aui-avatar
+      [[#size]]
+       aui-avatar-[[size]]
+      [[/size]]
+      [[^size]]
+       aui-avatar-medium
+      [[/size]]">
+      <span class="aui-avatar-inner">
+        <img alt="[[display_name]]" src="[[links.avatar.href]]">
+      </span>
+    </span>
+    <span class="name">[[display_name]]</span>
+</a>
+
+</script>
+  <script id="task-template" type="text/html">
+  
+
+<div class="description-container">
+  <input type="checkbox" class="task-status" [[#completed]]checked[[/completed]][[^hasReadAccess]] disabled[[/hasReadAccess]]>
+  [[#editing]]
+    <textarea class="edit-description" placeholder="Add new task">[[content.raw]]</textarea>
+  [[/editing]]
+  [[^editing]]
+    <span class="description">[[content.raw]]</span>
+  [[/editing]]
+  [[#id]]
+  [[#comment]]
+    <a href="#task-[[id]]" class="context-link">
+      <span class="aui-icon aui-icon-small aui-iconfont-link"
+          title="View this task in context"
+          >Show context</span>
+    </a>
+  [[/comment]]
+  [[/id]]
+</div>
+<ul class="task-actions clearfix">
+  [[#editing]]
+    <li>
+      <button class="aui-button aui-button-link save-task">Save</button>
+    </li>
+    <li>
+      <button class="aui-button aui-button-link cancel-edit">Cancel</button>
+    </li>
+  [[/editing]]
+  [[^editing]]
+    [[#isEditable]]
+      <li>
+        <button class="aui-button aui-button-link edit-task">Edit</button>
+      </li>
+      <li>
+        <button class="aui-button aui-button-link delete-task">Delete</button>
+      </li>
+    [[/isEditable]]
+  [[/editing]]
+</ul>
+
+</script>
+  <script id="pullrequest-task-list-template" type="text/html">
+  
+
+<div id="open-tasks"></div>
+
+[[#hasResolvedTasks]]
+  <h5>Resolved tasks</h5>
+[[/hasResolvedTasks]]
+
+<div id="resolved-tasks"></div>
+
+</script>
+  <script id="merge-form-template" type="text/html">
+  
+
+<form class="aui merge-form" action="[[action]]" method="post"
+      [[#syncRepo]]
+        data-title="Sync repository"
+      [[/syncRepo]]
+      [[#syncBranch]]
+        data-title="Sync branch"
+      [[/syncBranch]]
+      [[^syncRepo]]
+        [[^syncBranch]]
+          data-title="Merge changes"
+        [[/syncBranch]]
+      [[/syncRepo]]
+      data-has-conflicts="[[hasConflicts]]">
+  [[#hasConflicts]]
+    <p class="title">
+      <span class="aui-icon aui-icon-warning"></span>
+      <strong>
+        This merge has conflicts that must be resolved before it can be committed.
+      </strong>
+    </p>
+    <p class="instructions">
+      [[#sameRepo]]
+        
+          To manually merge these changes into [[destBranch]] run the following
+          commands:
+        
+      [[/sameRepo]]
+      [[^sameRepo]]
+        
+          To manually merge these changes into [[destRepo]]/[[destBranch]] run the following
+          commands:
+        
+      [[/sameRepo]]
+    </p>
+    <pre class="merge-commands"><code>[[&mergeCommands]]</code></pre>
+  [[/hasConflicts]]
+  [[^hasConflicts]]
+    <div class="error-container"></div>
+    <div class="field-group">
+      <label>Source</label>
+      <div class="field-value">
+        [[^sameRepo]]
+          <span class="repo">
+            <span class="repo-avatar-container size16">
+              <img alt="[[sourceAvatarAltText]]" src="[[sourceAvatar]]" />
+            </span>
+            <span class="repo-name">[[sourceRepo]]</span>
+          </span>
+        [[/sameRepo]]
+        <span class="branch">
+          <span class="aui-icon aui-icon-small aui-iconfont-devtools-branch"></span>
+          <span class="branch-name">[[sourceBranch]]</span>
+        </span>
+      </div>
+    </div>
+    <div class="field-group">
+      <label>Destination</label>
+      <div class="field-value">
+        [[^sameRepo]]
+          <span class="repo">
+            <span class="repo-avatar-container size16">
+              <img alt="[[destAvatarAltText]]" src="[[destAvatar]]" />
+            </span>
+            <span class="repo-name">[[destRepo]]</span>
+          </span>
+        [[/sameRepo]]
+        <span class="branch">
+          <span class="aui-icon aui-icon-small aui-iconfont-devtools-branch"></span>
+          <span class="branch-name">[[destBranch]]</span>
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <input id="id_tzoffset" type="hidden" name="tzoffset" />
+  [[#mergeEvent]]
+    <input id="id_merge_event" type="hidden" name="event" value="[[mergeEvent]]" />
+  [[/mergeEvent]]
+
+  <div id="id_commit_message_group" class="field-group">
+    <label for="id_commit_message">Commit message</label>
+    <textarea id="id_commit_message" rows="10" cols="40" name="commit_message"
+              class="long-field textarea">Merged [[commitMessageSlug]] into [[destBranch]]</textarea>
+  </div>
+  [[#showMergeStrategies]]
+    <div id="id_merge_strategy_group" class="field-group">
+      <label for="id_merge_strategy">Merge strategy</label>
+      <select class="select aui-select2" id="id_merge_strategy" name="merge_strategy">
+        [[#mergeStrategies]]
+          <option value="[[key]]"
+            [[#default]]selected="selected"[[/default]]
+            data-command="[[command]]"
+            [[#defaultCommitMsg]]data-default-commit-msg="[[defaultCommitMsg]]"[[/defaultCommitMsg]]
+            [[#defaultCommitMsgUrl]]data-default-commit-msg-url="[[defaultCommitMsgUrl]]"[[/defaultCommitMsgUrl]]
+            [[#commitMsgEditable]]data-commit-msg-editable="True"[[/commitMsgEditable]]
+          >[[name]]</option>
+        [[/mergeStrategies]]
+      </select>
+    </div>
+  [[/showMergeStrategies]]
+  [[#canCloseBranch]]
+    <fieldset class="group">
+      <div class="checkbox">
+        <input id="id_close_branch" type="checkbox" class="checkbox"
+              name="close_branch">
+        <label for="id_close_branch">Close source branch</label>
+      </div>
+    </fieldset>
+  [[/canCloseBranch]]
+  <input type="hidden" name="source" value="[[source]]" />
+  <input type="hidden" name="dest" value="[[dest]]" />
+  <div class="buttons-container submit">
+    <div class="buttons">
+      <input type="submit"
+             [[#syncRepo]]
+               value="Sync"
+             [[/syncRepo]]
+             [[#syncBranch]]
+               value="Sync"
+             [[/syncBranch]]
+             [[^syncRepo]]
+               [[^syncBranch]]
+                 value="Merge"
+               [[/syncBranch]]
+             [[/syncRepo]]
+             />
+    </div>
+  [[/hasConflicts]]
+</form>
+
+</script>
+
+        
+        
+        
+          <script id="image-upload-template" type="text/html">
+  
+
+<form id="upload-image" method="POST"
+    
+      action="/xhr/firewiccagroup/.git-2-mirror/image-upload/"
+    >
+  <input type='hidden' name='csrfmiddlewaretoken' value='KK6sLiIhfKdxTk2mWIE4OiouhHmw2iA4lHHayxboDFKGwXKEQONbd9JNiofSVz7s' />
+
+  <div class="drop-target">
+    <p class="centered">Drag image here</p>
+  </div>
+
+  
+  <div>
+    <button class="aui-button click-target">Select an image</button>
+    <input name="file" type="file" class="hidden file-target"
+           accept="image/jpeg, image/gif, image/png" />
+    <input type="submit" class="hidden">
+  </div>
+</form>
+
+
+</script>
+        
+      </div>
+    </div>
+  </div>
+
+      </div>
+    </div>
+    
+    <div id="adg3-flag-root"></div>
+    <div id="tos-modal"></div>
+</div>
+
+<div id="adg3-dialog"></div>
+
+
+  
+
+<div data-module="components/mentions/index">
+  
+    
+    
+  
+  
+    
+    
+  
+  
+    
+    
+  
+</div>
+<div data-module="components/typeahead/emoji/index">
+  
+    
+    
+  
+</div>
+
+<div data-module="components/repo-typeahead/index">
+  
+    
+    
+  
+</div>
+
+    
+    
+  
+
+
+  
+
+
+  <div class="omnibar" data-module="components/omnibar/index">
+    <form class="omnibar-form aui"></form>
+  </div>
+  
+    
+    
+  
+  
+    
+    
+  
+  
+    
+    
+  
+  
+    
+    
+  
+
+
+
+
+  
+
+  <div class="_mustache-templates">
+    
+      <script id="mention-result" type="text/html">
+        
+[[! Escaping can be disabled (with "&") for these template vars because they're manually escaped in the various consumers ]]
+<span class="mention-result">
+  <span class="aui-avatar aui-avatar-small mention-result--avatar">
+    <span class="aui-avatar-inner">
+      <img src="[[avatar_url]]">
+    </span>
+  </span>
+  [[#display_name]]
+    [[#has_distinct_display_name]]
+      [[#nickname]]
+        <span class="display-name mention-result--display-name">[[&display_name]]</span> <span class="username mention-result--secondary-name mention-result--username">([[&nickname]])</span>
+      [[/nickname]]
+      [[^nickname]]
+        <span class="display-name mention-result--display-name">[[&display_name]]</span> <span class="username mention-result--secondary-name mention-result--username">([[&mention_id]])</span>
+      [[/nickname]]
+    [[/has_distinct_display_name]]
+    [[^has_distinct_display_name]]
+      <span class="display-name mention-result--display-name distinct">[[&display_name]]</span>
+    [[/has_distinct_display_name]]
+  [[/display_name]]
+  [[^display_name]]
+    [[#nickname]]
+      <span class="username mention-result--username">[[&nickname]]</span>
+    [[/nickname]]
+    [[^nickname]]
+      <span class="username mention-result--username">[[&mention_id]]</span>
+    [[/nickname]]
+  [[/display_name]]
+  [[#is_teammate]][[^is_team]]
+    <span class="aui-lozenge aui-lozenge-complete aui-lozenge-subtle mention-result--lozenge">teammate</span>
+  [[/is_team]][[/is_teammate]]
+</span>
+
+      </script>
+    
+      <script id="mention-call-to-action" type="text/html">
+        
+[[^query]]
+<li class="bb-typeahead-item">Begin typing to search for a user</li>
+[[/query]]
+[[#query]]
+<li class="bb-typeahead-item">Continue typing to search for a user</li>
+[[/query]]
+
+      </script>
+    
+      <script id="mention-no-results" type="text/html">
+        
+[[^searching]]
+<li class="bb-typeahead-item">Found no matching users for <em>[[query]]</em>.</li>
+[[/searching]]
+[[#searching]]
+<li class="bb-typeahead-item bb-typeahead-searching">Searching for <em>[[query]]</em>.</li>
+[[/searching]]
+
+      </script>
+    
+      <script id="emoji-result" type="text/html">
+        
+<span class="emoji-result">
+  <span class="emoji-result--avatar">
+    <img class="emoji" src="[[src]]">
+  </span>
+  <span class="name emoji-result--name">[[&name]]</span>
+</span>
+
+      </script>
+    
+      <script id="repo-typeahead-result" type="text/html">
+        <span class="aui-avatar aui-avatar-project aui-avatar-xsmall">
+  <span class="aui-avatar-inner">
+    <img src="[[avatar]]">
+  </span>
+</span>
+<span class="owner">[[&owner]]</span>/<span class="slug">[[&slug]]</span>
+
+      </script>
+    
+      <script id="scope-list-template" type="text/html">
+        <ul class="scope-list">
+  [[#scopes]]
+    <li class="scope-list--item">
+      <span class="scope-list--icon aui-icon aui-icon-small [[icon]]"></span>
+      <span class="scope-list--description">[[description]]</span>
+    </li>
+  [[/scopes]]
+</ul>
+
+      </script>
+    
+      <script id="omnibar-form-template" type="text/html">
+        <div class="omnibar-input-container">
+  <input class="omnibar-input" type="text" [[#placeholder]]placeholder="[[placeholder]]"[[/placeholder]]>
+</div>
+<ul class="omnibar-result-group-list"></ul>
+
+      </script>
+    
+      <script id="omnibar-blank-slate-template" type="text/html">
+        
+
+<div class="omnibar-blank-slate">No results found</div>
+
+      </script>
+    
+      <script id="omnibar-result-group-list-item-template" type="text/html">
+        <div class="omnibar-result-group-header clearfix">
+  <h2 class="omnibar-result-group-label" title="[[label]]">[[label]]</h2>
+  <span class="omnibar-result-group-context" title="[[context]]">[[context]]</span>
+</div>
+<ul class="omnibar-result-list unstyled-list"></ul>
+
+      </script>
+    
+      <script id="omnibar-result-list-item-template" type="text/html">
+        [[#url]]
+  <a href="[[&url]]" class="omnibar-result-label">[[&label]]</a>
+[[/url]]
+[[^url]]
+  <span class="omnibar-result-label">[[&label]]</span>
+[[/url]]
+[[#context]]
+  <span class="omnibar-result-context">[[context]]</span>
+[[/context]]
+
+      </script>
+    
+  </div>
+
+
+
+
+  
+    <script nonce="AKta4UDeTI2oAbCz">
+  window.__initial_state__ = {"section": {"repository": {"connectActions": [], "cloneProtocol": "https", "currentRepository": {"scm": "git", "website": null, "name": ".git-2-mirror", "language": "", "description": null, "links": {"clone": [{"href": "https://firewiccagroup@bitbucket.org/firewiccagroup/.git-2-mirror.git", "name": "https"}, {"href": "git@bitbucket.org:firewiccagroup/.git-2-mirror.git", "name": "ssh"}], "self": {"href": "https://bitbucket.org/!api/2.0/repositories/firewiccagroup/.git-2-mirror"}, "html": {"href": "https://bitbucket.org/firewiccagroup/.git-2-mirror"}, "avatar": {"href": "https://bytebucket.org/ravatar/%7B819294a1-1fb4-475e-9190-13bbb473f49a%7D?ts=default"}}, "mainbranch": {"name": "master"}, "full_name": "firewiccagroup/.git-2-mirror", "owner": {"has_2fa_enabled": null, "display_name": "Ambjoern Skoeld\ud83d\udee1", "uuid": "{2caa4c38-2859-48ec-8fb1-1f724f918d66}", "links": {"self": {"href": "https://bitbucket.org/!api/2.0/users/%7B2caa4c38-2859-48ec-8fb1-1f724f918d66%7D"}, "html": {"href": "https://bitbucket.org/%7B2caa4c38-2859-48ec-8fb1-1f724f918d66%7D/"}, "avatar": {"href": "https://secure.gravatar.com/avatar/993bc96b47c84a95eeda19b63169a17f?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAS-1.png"}}, "type": "user", "created_on": "2018-11-23T05:08:43.201017+00:00", "is_staff": false, "account_status": "active", "nickname": "Ambjorn Skold", "properties": {}, "account_id": "5bd0a5744b76d050e296ec7a"}, "updated_on": "2020-01-25T03:52:12.551669+00:00", "type": "repository", "slug": ".git-2-mirror", "is_private": false, "uuid": "{819294a1-1fb4-475e-9190-13bbb473f49a}"}, "mirrors": [], "menuItems": [{"analytics_label": "repository.source", "is_client_link": true, "icon_class": "icon-source", "badge_label": null, "weight": 200, "url": "/firewiccagroup/.git-2-mirror/src", "tab_name": "source", "can_display": true, "label": "Source", "type": "menu_item", "anchor": true, "analytics_payload": {}, "matching_url_prefixes": ["/diff", "/history-node"], "target": "_self", "id": "repo-source-link", "icon": "icon-source"}, {"analytics_label": "repository.commits", "is_client_link": true, "icon_class": "icon-commits", "badge_label": null, "weight": 300, "url": "/firewiccagroup/.git-2-mirror/commits/", "tab_name": "commits", "can_display": true, "label": "Commits", "type": "menu_item", "anchor": true, "analytics_payload": {}, "matching_url_prefixes": [], "target": "_self", "id": "repo-commits-link", "icon": "icon-commits"}, {"analytics_label": "repository.branches", "is_client_link": true, "icon_class": "icon-branches", "badge_label": null, "weight": 400, "url": "/firewiccagroup/.git-2-mirror/branches/", "tab_name": "branches", "can_display": true, "label": "Branches", "type": "menu_item", "anchor": true, "analytics_payload": {}, "matching_url_prefixes": [], "target": "_self", "id": "repo-branches-link", "icon": "icon-branches"}, {"analytics_label": "repository.pullrequests", "is_client_link": true, "icon_class": "icon-pull-requests", "badge_label": null, "weight": 500, "url": "/firewiccagroup/.git-2-mirror/pull-requests/", "tab_name": "pullrequests", "can_display": true, "label": "Pull requests", "type": "menu_item", "anchor": true, "analytics_payload": {}, "matching_url_prefixes": [], "target": "_self", "id": "repo-pullrequests-link", "icon": "icon-pull-requests"}, {"analytics_label": "user.addon", "is_client_link": true, "icon_class": "aui-iconfont-unfocus", "badge_label": null, "weight": 550, "url": "/firewiccagroup/.git-2-mirror/addon/pipelines/home", "tab_name": "repopage-oB98xE-add-on-link", "can_display": true, "label": "Pipelines", "icon_url": "https://bitbucket-connect-icons.s3.amazonaws.com/add-on/icons/62acf41d-386f-49fd-b823-4f86445390e2.svg?AWSAccessKeyId=AKIAIQWXW6WLXMB5QZAQ&Expires=1579926149&Signature=eLZ%2B78S9Dj8XCQYMsMHe%2FeTHeeQ%3D", "anchor": true, "analytics_payload": {}, "matching_url_prefixes": [], "type": "connect_menu_item", "id": "repopage-oB98xE-add-on-link", "target": "_self"}, {"analytics_label": "user.addon", "is_client_link": true, "icon_class": "aui-iconfont-unfocus", "badge_label": null, "weight": 560, "url": "/firewiccagroup/.git-2-mirror/addon/pipelines/deployments", "tab_name": "repopage-yaM899-add-on-link", "can_display": true, "label": "Deployments", "icon_url": "https://bitbucket-connect-icons.s3.amazonaws.com/add-on/icons/fca72d46-7e20-4dc4-b6a8-c83fb9665cc6.svg?AWSAccessKeyId=AKIAIQWXW6WLXMB5QZAQ&Expires=1579926149&Signature=uXi2hmQkFO0%2BaKaMQK3TdyOZhP0%3D", "anchor": true, "analytics_payload": {}, "matching_url_prefixes": [], "type": "connect_menu_item", "id": "repopage-yaM899-add-on-link", "target": "_self"}, {"analytics_label": "repository.downloads", "is_client_link": false, "icon_class": "icon-downloads", "badge_label": null, "weight": 800, "url": "/firewiccagroup/.git-2-mirror/downloads/", "tab_name": "downloads", "can_display": true, "label": "Downloads", "type": "menu_item", "anchor": true, "analytics_payload": {}, "matching_url_prefixes": [], "target": "_self", "id": "repo-downloads-link", "icon": "icon-downloads"}, {"analytics_label": "repository.settings", "is_client_link": false, "icon_class": "icon-settings", "badge_label": null, "weight": 100, "url": "/firewiccagroup/.git-2-mirror/admin", "tab_name": "admin", "can_display": true, "label": "Settings", "type": "menu_item", "anchor": true, "analytics_payload": {}, "matching_url_prefixes": [], "target": "_self", "id": "repo-settings-link", "icon": "icon-settings"}], "bitbucketActions": [{"analytics_label": "repository.clone", "is_client_link": false, "icon_class": "icon-clone", "badge_label": null, "weight": 100, "url": "#clone", "tab_name": "clone", "can_display": true, "label": "<strong>Clone<\/strong> this repository", "type": "menu_item", "anchor": true, "analytics_payload": {}, "matching_url_prefixes": [], "target": "_self", "id": "repo-clone-button", "icon": "icon-clone"}, {"analytics_label": "repository.create_branch", "is_client_link": true, "icon_class": "icon-create-branch", "badge_label": null, "weight": 200, "url": "/firewiccagroup/.git-2-mirror/branch", "tab_name": "create-branch", "can_display": true, "label": "Create a <strong>branch<\/strong>", "type": "menu_item", "anchor": true, "analytics_payload": {}, "matching_url_prefixes": [], "target": "_self", "id": "repo-create-branch-link", "icon": "icon-create-branch"}, {"analytics_label": "create_pullrequest", "is_client_link": false, "icon_class": "icon-create-pull-request", "badge_label": null, "weight": 300, "url": "/firewiccagroup/.git-2-mirror/pull-requests/new", "tab_name": "create-pullreqs", "can_display": true, "label": "Create a <strong>pull request<\/strong>", "type": "menu_item", "anchor": true, "analytics_payload": {}, "matching_url_prefixes": [], "target": "_self", "id": "repo-create-pull-request-link", "icon": "icon-create-pull-request"}, {"analytics_label": "repository.compare", "is_client_link": false, "icon_class": "aui-icon-small aui-iconfont-devtools-compare", "badge_label": null, "weight": 400, "url": "/firewiccagroup/.git-2-mirror/branches/compare", "tab_name": "compare", "can_display": true, "label": "<strong>Compare<\/strong> branches or tags", "type": "menu_item", "anchor": true, "analytics_payload": {}, "matching_url_prefixes": [], "target": "_self", "id": "repo-compare-link", "icon": "aui-icon-small aui-iconfont-devtools-compare"}, {"analytics_label": "repository.fork", "is_client_link": false, "icon_class": "icon-fork", "badge_label": null, "weight": 500, "url": "/firewiccagroup/.git-2-mirror/fork", "tab_name": "fork", "can_display": true, "label": "<strong>Fork<\/strong> this repository", "type": "menu_item", "anchor": true, "analytics_payload": {}, "matching_url_prefixes": [], "target": "_self", "id": "repo-fork-link", "icon": "icon-fork"}], "activeMenuItem": "pullrequests"}}, "global": {"theme": null, "features": {"crf-skip-excessive-diffs": true, "bleach-snippets-and-wikis": true, "exp-share-to-invite-variation": false, "fd-block-bot-emails": true, "new-code-review-activity-feed-02": true, "connect-authorize-key-or-descriptor": true, "allow-revoking-application-3lo-oauth-tokens": true, "pr-web-panels": true, "use-elasticache-lsn-storage": true, "workspaces-api-proxy": true, "fd-sidebar-code-insights": false, "atlassian-switcher": true, "account-switcher": true, "new-code-review-revert-pr": true, "show-guidance-message": true, "show-billing-errors": true, "large-pr-rendering-limits": true, "restrict-commit-author-data": true, "whitelisted_throttle_exemption": true, "nav-add-file": false, "prlinks-installer": true, "force-old-code-review": false, "whats-new": true, "new-code-review-sync-now": true, "markdown-embedded-html": false, "spa-profile-repository-list": true, "group-member-handler-bulk-users": true, "repo-filtering-configuration-signal-enabled": true, "pr-webitems": true, "bbcs-367-log-session-invalidation": true, "clonebundles": true, "use-moneybucket": true, "pride-logo": false, "fd-better-size-schedule": true, "auto-prs-prime-fallback": true, "diff-api-20-refactor": true, "enable-boto3-s3-backend": true, "lsn-based-db-routing": true, "repo-nav-jira-tab": true, "growth-join-section-in-atlassian-switcher": true, "spa-plans-page": true, "clone-in-xcode": true, "create-pr-dialog": true, "terms-and-conditions-2018": true, "provisioning-auto-login": true, "exp-new-user-survey": true, "unfiltered-repo-manager": true, "fd-delete-github-token-on-acct-disconnect": true, "statuspage-incident-message": true, "lsn-lookups": true, "block-bot-user-qs-permissions": true, "frontbucket-leave-repository": true, "new-source-browser": true, "ignore-bb-notification": true, "markdown-and-linkify-commits": true, "one-trust-integration": true, "allow-bot-push": true, "block-bot-user-permissions": true, "evolution": false, "new-code-review": false, "atlassian-editor": true, "disable-prs-sidecar": true, "provisioning-api-list-teams": true, "transactional-email-footer": true, "example-tf-feature": true, "twofactor-recovery-flow": true, "oauth-password-backend-only": true, "hg-deprecation-warning": true, "fetch-sites-from-bb-jira-service": true, "new-code-review-tasks": true, "disable-jsonp": true, "allow-cloud-session": true}, "locale": "en", "importBitbucketActions": [{"analytics_label": null, "is_client_link": false, "icon_class": "", "badge_label": null, "weight": 100, "url": "/repo/import", "tab_name": null, "can_display": true, "label": "<strong>Repository<\/strong>", "type": "menu_item", "anchor": true, "analytics_payload": {}, "matching_url_prefixes": [], "target": "_self", "id": "repository-import-drawer-item", "icon": ""}], "browser_monitoring": true, "isCodeReviewWelcomeDialogOpen": true, "is_mobile_user_agent": true, "site_message": "", "commitViewSidebarWidth": null, "codeReviewSidebarWidth": null, "path": "/firewiccagroup/.git-2-mirror/pull-requests/1/master-git-2-mirror/diff", "currentUser": {"has_2fa_enabled": null, "display_name": "Ambjoern Skoeld\ud83d\udee1", "uuid": "{2caa4c38-2859-48ec-8fb1-1f724f918d66}", "links": {"self": {"href": "https://bitbucket.org/!api/2.0/users/%7B2caa4c38-2859-48ec-8fb1-1f724f918d66%7D"}, "html": {"href": "https://bitbucket.org/%7B2caa4c38-2859-48ec-8fb1-1f724f918d66%7D/"}, "avatar": {"href": "https://secure.gravatar.com/avatar/993bc96b47c84a95eeda19b63169a17f?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAS-1.png"}}, "extra": {"has_ssh_key": false, "has_atlassian_account": true}, "type": "user", "created_on": "2018-11-23T05:08:43.201017+00:00", "is_staff": false, "account_status": "active", "nickname": "Ambjorn Skold", "properties": {}, "account_id": "5bd0a5744b76d050e296ec7a"}, "sourceBrowserSidebarWidth": null, "bitbucketActions": [{"analytics_label": null, "is_client_link": false, "icon_class": "", "badge_label": null, "weight": 100, "url": "/repo/create?owner=firewiccagroup", "tab_name": null, "can_display": true, "label": "<strong>Repository<\/strong>", "type": "menu_item", "anchor": true, "analytics_payload": {}, "matching_url_prefixes": [], "target": "_self", "id": "repository-create-drawer-item", "icon": ""}, {"analytics_label": null, "is_client_link": false, "icon_class": "", "badge_label": null, "weight": 110, "url": "/account/create-team/", "tab_name": null, "can_display": true, "label": "<strong>Team<\/strong>", "type": "menu_item", "anchor": true, "analytics_payload": {}, "matching_url_prefixes": [], "target": "_self", "id": "team-create-drawer-item", "icon": ""}, {"analytics_label": null, "is_client_link": false, "icon_class": "", "badge_label": null, "weight": 120, "url": "/account/projects/create?owner=firewiccagroup", "tab_name": null, "can_display": true, "label": "<strong>Project<\/strong>", "type": "menu_item", "anchor": true, "analytics_payload": {}, "matching_url_prefixes": [], "target": "_self", "id": "project-create-drawer-item", "icon": ""}, {"analytics_label": null, "is_client_link": false, "icon_class": "", "badge_label": null, "weight": 130, "url": "/snippets/new?owner=firewiccagroup", "tab_name": null, "can_display": true, "label": "<strong>Snippet<\/strong>", "type": "menu_item", "anchor": true, "analytics_payload": {}, "matching_url_prefixes": [], "target": "_self", "id": "snippet-create-drawer-item", "icon": ""}], "needs_marketing_consent": false, "isCommitViewSidebarOpen": true, "targetUser": {"has_2fa_enabled": null, "display_name": "Ambjoern Skoeld\ud83d\udee1", "uuid": "{2caa4c38-2859-48ec-8fb1-1f724f918d66}", "links": {"self": {"href": "https://bitbucket.org/!api/2.0/users/%7B2caa4c38-2859-48ec-8fb1-1f724f918d66%7D"}, "html": {"href": "https://bitbucket.org/%7B2caa4c38-2859-48ec-8fb1-1f724f918d66%7D/"}, "avatar": {"href": "https://secure.gravatar.com/avatar/993bc96b47c84a95eeda19b63169a17f?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FAS-1.png"}}, "type": "user", "created_on": "2018-11-23T05:08:43.201017+00:00", "is_staff": false, "account_status": "active", "nickname": "Ambjorn Skold", "properties": {}, "account_id": "5bd0a5744b76d050e296ec7a"}, "geoip_country": "US", "targetFeatures": {"crf-skip-excessive-diffs": true, "bleach-snippets-and-wikis": true, "exp-share-to-invite-variation": false, "fd-block-bot-emails": true, "new-code-review-activity-feed-02": true, "connect-authorize-key-or-descriptor": true, "allow-revoking-application-3lo-oauth-tokens": true, "pr-web-panels": true, "use-elasticache-lsn-storage": true, "workspaces-api-proxy": true, "fd-sidebar-code-insights": false, "atlassian-switcher": true, "account-switcher": true, "new-code-review-revert-pr": true, "show-guidance-message": true, "show-billing-errors": true, "large-pr-rendering-limits": true, "restrict-commit-author-data": true, "whitelisted_throttle_exemption": true, "nav-add-file": false, "prlinks-installer": true, "force-old-code-review": false, "whats-new": true, "new-code-review-sync-now": true, "markdown-embedded-html": false, "spa-profile-repository-list": true, "group-member-handler-bulk-users": true, "repo-filtering-configuration-signal-enabled": true, "pr-webitems": true, "bbcs-367-log-session-invalidation": true, "clonebundles": true, "use-moneybucket": true, "pride-logo": false, "fd-better-size-schedule": true, "auto-prs-prime-fallback": true, "diff-api-20-refactor": true, "enable-boto3-s3-backend": true, "lsn-based-db-routing": true, "repo-nav-jira-tab": true, "growth-join-section-in-atlassian-switcher": true, "spa-plans-page": true, "clone-in-xcode": true, "create-pr-dialog": true, "terms-and-conditions-2018": true, "provisioning-auto-login": true, "exp-new-user-survey": true, "unfiltered-repo-manager": true, "fd-delete-github-token-on-acct-disconnect": true, "statuspage-incident-message": true, "lsn-lookups": true, "block-bot-user-qs-permissions": true, "frontbucket-leave-repository": true, "new-source-browser": true, "ignore-bb-notification": true, "markdown-and-linkify-commits": true, "one-trust-integration": true, "allow-bot-push": true, "block-bot-user-permissions": true, "evolution": false, "new-code-review": false, "atlassian-editor": true, "disable-prs-sidecar": true, "provisioning-api-list-teams": true, "transactional-email-footer": true, "example-tf-feature": true, "twofactor-recovery-flow": true, "oauth-password-backend-only": true, "hg-deprecation-warning": true, "fetch-sites-from-bb-jira-service": true, "new-code-review-tasks": true, "disable-jsonp": true, "allow-cloud-session": true}, "isFocusedTask": false, "teams": [{"username": "esa396", "type": "team", "display_name": "ESA", "uuid": "{2f0679fb-fcbb-4383-a03c-c49d4b697d1e}", "links": {"self": {"href": "https://bitbucket.org/!api/2.0/teams/%7B2f0679fb-fcbb-4383-a03c-c49d4b697d1e%7D"}, "html": {"href": "https://bitbucket.org/%7B2f0679fb-fcbb-4383-a03c-c49d4b697d1e%7D/"}, "avatar": {"href": "https://bitbucket.org/account/esa396/avatar/"}}}, {"username": "esasecurity", "type": "team", "display_name": "ESA.security", "uuid": "{3f424e9e-1b81-4459-a1dd-57639ec8a3c4}", "links": {"self": {"href": "https://bitbucket.org/!api/2.0/teams/%7B3f424e9e-1b81-4459-a1dd-57639ec8a3c4%7D"}, "html": {"href": "https://bitbucket.org/%7B3f424e9e-1b81-4459-a1dd-57639ec8a3c4%7D/"}, "avatar": {"href": "https://bitbucket.org/account/esasecurity/avatar/"}}}], "identityPassthroughEnabled": true, "isCodeReviewSidebarOpen": true, "flags": [], "isNavigationOpen": true, "focusedTaskBackButtonUrl": null, "isSourceBrowserSidebarOpen": true, "whats_new_feed": "https://bitbucket.org/blog/wp-json/wp/v2/posts?categories=196&context=embed&per_page=6&orderby=date&order=desc"}};
+  window.__settings__ = {"MARKETPLACE_TERMS_OF_USE_URL": null, "JIRA_ISSUE_COLLECTORS": {"code-review-beta": {"url": "https://bitbucketfeedback.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-T/-4bqv2z/b/20/a44af77267a987a660377e5c46e0fb64/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-US&collectorId=bb066400", "id": "bb066400"}, "jira-software-repo-page": {"url": "https://jira.atlassian.com/s/1ce410db1c7e1b043ed91ab8e28352e2-T/yl6d1c/804001/619f60e5de428c2ed7545f16096c303d/3.1.0/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-UK&collectorId=064d6699", "id": "064d6699"}, "code-review-rollout": {"url": "https://bitbucketfeedback.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-T/-4bqv2z/b/20/a44af77267a987a660377e5c46e0fb64/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-US&collectorId=de003e2d", "id": "de003e2d"}, "source-browser": {"url": "https://bitbucketfeedback.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e-T/-tqnsjm/b/20/a44af77267a987a660377e5c46e0fb64/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-US&collectorId=c19c2ff6", "id": "c19c2ff6"}}, "CANON_URL": "https://bitbucket.org", "AVAILABLE_SITES_URL": "https://api-private.atlassian.com/available-sites", "CONSENT_HUB_FRONTEND_BASE_URL": "https://preferences.atlassian.com", "API_CANON_URL": "https://api.bitbucket.org", "SOCIAL_AUTH_ATLASSIANID_LOGOUT_URL": "https://id.atlassian.com/logout", "EMOJI_STANDARD_BASE_URL": "https://api-private.atlassian.com/emoji/"};
+  window.__webpack_nonce__ = 'AKta4UDeTI2oAbCz';
+</script>
+<script src="https://d301sr5gafysq2.cloudfront.net/92233925623f/jsi18n/en/djangojs.js" nonce="AKta4UDeTI2oAbCz"></script>
+
+  <script src="https://d301sr5gafysq2.cloudfront.net/92233925623f/dist/webpack/locales/en.js" nonce="AKta4UDeTI2oAbCz"></script>
+
+<script src="https://d301sr5gafysq2.cloudfront.net/92233925623f/dist/webpack/vendor.js" nonce="AKta4UDeTI2oAbCz"></script>
+<script src="https://d301sr5gafysq2.cloudfront.net/92233925623f/dist/webpack/pullrequests.js" nonce="AKta4UDeTI2oAbCz"></script>
+  
+
+
+<script async src="https://www.google-analytics.com/analytics.js" nonce="AKta4UDeTI2oAbCz"></script>
+
+<script nonce="AKta4UDeTI2oAbCz" type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","queueTime":0,"licenseKey":"a2cef8c3d3","agent":"","transactionName":"NFcGYEdUW0IAVE1QCw0dIkFbVkFYDlkWWw0XUBFXXlBBHwBHSUpKE0cIWEdQREQERE1KShVbAUNGD0VEDVtLXBUWVxdAalFcVwc=","applicationID":"1841284","errorBeacon":"bam.nr-data.net","applicationTime":354}</script>
+</body>
+</html>
