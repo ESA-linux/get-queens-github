@@ -1,0 +1,1 @@
+https://us-east-2.console.aws.amazon.com/systems-manager/automation/execute/AWS-ConfigureCloudWatchOnEC2Instance?resourceGroup=API-Token&region=us-east-2#documentVersion=$LATEST&InstanceId=i-7f12e649&targetParameterName=AutomationAssumeRole&targetKey=ResourceGroup&targetValues=API-Token
